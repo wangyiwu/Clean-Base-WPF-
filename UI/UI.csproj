@@ -117,8 +117,6 @@
   <ItemGroup>
     <Resource Include="Settings.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\Commands\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
