@@ -9,8 +9,8 @@
         Title="MainView" Height="450" Width="800">
     <Grid>
 
+        <TextBlock Width="100"/>
         <Button Content="{Infrastructure:Localized submit}" />
-        
         
 
     </Grid>

@@ -59,6 +59,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Infrastructure\Command.cs" />
     <Compile Include="Infrastructure\Localized.cs" />
     <Compile Include="Infrastructure\Localizer.cs" />
     <Compile Include="Infrastructure\LocalizerStorage.cs" />
@@ -115,6 +116,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Settings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModel\Commands\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

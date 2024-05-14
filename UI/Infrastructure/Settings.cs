@@ -58,6 +58,8 @@ namespace UI.Infrastructure
 
         #region properties
         public string Locale { get; set; }
+
+
         #endregion
 
     }
